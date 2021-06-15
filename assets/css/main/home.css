@@ -1,9 +1,6 @@
 .home {
     min-height: 100vh;
     background-image: url(../../imgs/02.jpg);
-    background-position-x: center;
-    background-position-y: 40%;
-    background-size:100vw 56.25vw;
-    background-repeat: no-repeat;
+
     
 }
