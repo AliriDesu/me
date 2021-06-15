@@ -12,7 +12,7 @@ function init() {
     window.addEventListener('resize', function () {
         clientH = document.documentElement.clientHeight;
         clientW = document.documentElement.clientWidth;
-        console.log(clientW);
+        
     });
     window.addEventListener('wheel', function (e) {
         if (!t || Date.now() - t >= 1000) {
