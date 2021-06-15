@@ -1,0 +1,28 @@
+@import url(./aside.css);
+@import url(./main/index.css);
+@media (max-width: 480px) {
+    body {
+        font-size: 62.5%;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 800px) {
+    body {
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 801px) {
+    body {
+        font-size: 100%;
+    }
+}
+
+body {
+    /* background-color: rgb(147, 149, 151); */
+    background-color: black;
+    /* color: rgb(245, 223, 77); */
+    color: wheat;
+    padding: 0;
+}

@@ -1,0 +1,7 @@
+.project {
+    min-height: 100vh;
+    background-color: green;
+    background-image: url(../../imgs/05.jpg);
+    background-position-x: center;
+    background-position-y: center;
+}
