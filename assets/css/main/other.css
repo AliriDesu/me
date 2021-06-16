@@ -20,6 +20,9 @@
 
 
 }
+.other .iconfont{
+    font-size: 30vw;
+}
 .item .cover{
     background-image:url(../../imgs/06.jpg);
     background-repeat: no-repeat;
