@@ -20,11 +20,21 @@
 
 
 }
-.other .iconfont{
-    font-size: 10vw;
+
+
+
+@media (max-width:576px) {
+    .other .info {
+        display: none;
+    }
+
+    .other .iconfont {
+        font-size: 10vw;
+    }
 }
-.item .cover{
-    background-image:url(../../imgs/06.jpg);
+
+.item .cover {
+    background-image: url(../../imgs/06.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
