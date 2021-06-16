@@ -1,11 +1,18 @@
 @import url(./aside.css);
 @import url(./main/index.css);
+@import url(./main/other.css);
 @media (max-width: 480px) {
     body {
         font-size: 62.5%;
     }
 }
-
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(91,194,231);
+    text-decoration:none;
+}
 
 @media (min-width: 481px) and (max-width: 800px) {
     body {
@@ -23,6 +30,6 @@ body {
     /* background-color: rgb(147, 149, 151); */
     background-color: black;
     /* color: rgb(245, 223, 77); */
-    color: wheat;
+    color: white;
     padding: 0;
 }

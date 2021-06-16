@@ -1,6 +1,16 @@
 .home {
     min-height: 100vh;
     background-image: url(../../imgs/02.jpg);
+}
 
-    
+.home .title{
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 8vh;
+}
+.home .description{
+        color: white;
+        font-size: 1vw;
+        text-align: center;
 }

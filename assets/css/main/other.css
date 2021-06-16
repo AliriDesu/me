@@ -1,0 +1,35 @@
+.other {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.other .item {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: border 1s;
+    border: 3px solid black;
+    border-radius: 3vw;
+}
+
+.other .item:hover {
+    border: 3px solid white;
+
+
+}
+.item .cover{
+    background-image:url(../../imgs/06.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 30vw;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 3vw;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
