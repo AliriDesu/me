@@ -1,0 +1,27 @@
+@import url(./home.css);
+@import url(./about.css);
+@import url(./project.css);
+.main{
+    background-color: black;
+    min-height: 800vh;
+    position: absolute;
+    right: 0;
+    padding: 0;
+    transition: all 1s;
+}
+.main>div{
+    opacity: 0.2;
+    transition: all 3s;
+    background-position-x: center;
+    background-position-y: 40%;
+    background-size:100vw 56.25vw;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+.main .display{
+    opacity: 1;
+}
+body{
+    overflow-y: hidden;
+}

@@ -1,0 +1,65 @@
+{
+  "id": "2614608",
+  "name": "简历",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8134359",
+      "name": "哔哩哔哩",
+      "font_class": "tv",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "8335438",
+      "name": "mail, envelope, letter, email, newsletter",
+      "font_class": "mailenvelopeletteremailnewsletter",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "15548833",
+      "name": "Logo GitHub",
+      "font_class": "huaban88",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "21687652",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    },
+    {
+      "icon_id": "2266804",
+      "name": "其他",
+      "font_class": "qita",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "4350546",
+      "name": "主页",
+      "font_class": "index",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "8450975",
+      "name": "关于",
+      "font_class": "guanyu",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "8893356",
+      "name": "项目",
+      "font_class": "xiangmu",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    }
+  ]
+}
