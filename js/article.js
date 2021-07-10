@@ -2,7 +2,6 @@ var articleList = document.getElementsByClassName('articleList')[0];
 console.log(articleList);
 var list = [{
         title: '01-html标签',
-<<<<<<< HEAD
         url: '../note/1.html'
     },
     {
@@ -16,21 +15,6 @@ var list = [{
     {
         title: '04-css基础2',
         url: '../note/4.html'
-=======
-        url: 'https://aliridesu.github.io/me/note/1.html'
-    },
-    {
-        title: '02-html标签',
-        url: 'https://aliridesu.github.io/me/note/2.html'
-    },
-    {
-        title: '03-css基础1',
-        url: 'https://aliridesu.github.io/me/note/3.html'
-    }, 
-    {
-        title: '04-css基础2',
-        url: 'https://aliridesu.github.io/me/note/4.html'
->>>>>>> 8e4c7e3cb4683f603ebb902916ce6bf084f6f2ee
     },
 ]
 
