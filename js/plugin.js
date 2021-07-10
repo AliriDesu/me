@@ -7,10 +7,12 @@ var clientH = document.documentElement.clientHeight,
     timer2 = null,
     t,
     Y1, Y2,
+    mainTop = 0,
     navs = document.getElementsByClassName('nav');
 
 function init() {
-    mainObj.style.top = '0px';
+    // mainObj.style.top = '0px';
+    localStorage.setItem("mainTop", mainTop);
     window.addEventListener('resize', function () {
         clientH = document.documentElement.clientHeight;
         clientW = document.documentElement.clientWidth;
@@ -54,6 +56,11 @@ function init() {
     }, 500);
 }
 
+window.onload = function () {
+    mainObj.style.top = localStorage.getItem("mainTop") +'px';
+    console.log(111);
+}
+
 init();
 
 function pageTo(dir, to) {
@@ -72,8 +79,16 @@ function pageTo(dir, to) {
         // if (parseFloat(getComputedStyle(mainObj).top) > 0) {
         //     mainObj.style.top = '0px';
         // }
+
     }
-    if(lIndex==index){
+    setTimeout(function () {
+        //储存mainTop
+        mainTop = parseFloat(getComputedStyle(mainObj).top);
+        console.log(mainTop);
+        localStorage.setItem("mainTop", mainTop);
+    }, 1000)
+
+    if (lIndex == index) {
         return
     }
     navColor();
@@ -91,6 +106,7 @@ function pageTo(dir, to) {
 
         hideAddress()
     }
+
 }
 
 function navColor() {
