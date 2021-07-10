@@ -2,19 +2,19 @@ var articleList = document.getElementsByClassName('articleList')[0];
 console.log(articleList);
 var list = [{
         title: '01-html标签',
-        url: '../note/1.html'
+        url: 'https://aliridesu.github.io/me/note/1.html'
     },
     {
         title: '02-html标签',
-        url: '../note/2.html'
+        url: 'https://aliridesu.github.io/me/note/2.html'
     },
     {
         title: '03-css基础1',
-        url: '../note/3.html'
+        url: 'https://aliridesu.github.io/me/note/3.html'
     }, 
     {
         title: '04-css基础2',
-        url: '../note/4.html'
+        url: 'https://aliridesu.github.io/me/note/4.html'
     },
 ]
 
