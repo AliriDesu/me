@@ -2,3 +2,8 @@
 
     background-image: url(../../imgs/05.jpg);
 }
+
+.articleIframe{
+    width: 75vw;
+    height: 100vh;
+}

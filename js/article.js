@@ -16,6 +16,10 @@ var list = [{
         title: '04-css基础2',
         url: '../note/4.html'
     },
+    {
+        title: '05-css选择器',
+        url: '../note/5.html'
+    },
 ]
 
 //n4
